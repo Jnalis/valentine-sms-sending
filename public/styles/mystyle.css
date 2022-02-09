@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2017/05/30/08/31/heart-2356169_1280.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    /* You must set a specified height */
+
+}
+
+.card1 {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-top: 15%;
+    /* Added */
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.card_header {
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Rowdies', cursive;
+}
+
+.icon {
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 6px;
+    left: 0px;
+}
+
+.input:focus {
+    outline: none !important;
+    border: 1px solid red;
+    box-shadow: 0 0 10px #ce7171;
+}
